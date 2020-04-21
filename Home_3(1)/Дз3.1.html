@@ -1,0 +1,59 @@
+<!DOCTYPE html>  
+<HTML>
+<HEAD><META charset="utf-8">
+<TITLE>Программа на Python, Часть 1</TITLE>
+</HEAD>  
+<BODY>
+         <H1>HOW-TO: Программа на Python, Часть 1</H1>
+     <UL>
+         <LI><H4><EM><a href="">Программа на Python &mdash; часть 1</a></EM></H4></LI>
+         <LI><H4><EM><a href="">Программа на Python &mdash; часть 2</a></EM></H4></LI>
+         <LI><H4><EM><a href="">Программа на Python &mdash; часть 3</a></EM></H4></LI>
+     </UL>
+         <H2>Содержание</H2>
+<H3>HOW-TO: Программа на Python, Часть 1</H3>
+     <UL>
+         <LI><H4><a href="">Наша первая программа</a></H4></LI>
+         <LI><H4><a href="">Пример цикла For</a></H4></LI>
+	</UL> 
+<P>Из множества существующих языков программирования Python — один из самых лёгких
+в изучении. Он создан в конце 80-х годов XX веика, но с тех пор он сильно изменился.
+Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не
+обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим
+создание консольных приложений, а в следующей — программирование графических
+интерфейсов (GUI). Давайте создадим простую программу прямо сейчас.</P>
+<P><H2>Наша первая программа</H2></P>
+<P><H4><a href="">К содержанию</a></H4></P>
+<P>Наберём код в текстовом редакторе (например, в <STRONG>gedit</STRONG>). Потом мы разберёмся, что делает
+каждая строка и пойдём дальше.</P>
+<P>Введите эти 4 строки:</P>
+<P><H5><font face="Courier New">#!/usr/bin/env python</font></H5><br>
+<P><H5><font face="Courier New">print 'Hello. I am a python program.'</font></H5><br>
+<P><H5><font face="Courier New">name = raw_input("What is your name?")</font></H5><br>
+<P><H5><font face="Courier New">print "Hello there, " + name + "!"</font></H5><br></P>
+<P>Это всё. Сохраните файл как <STRONG>hello.py</STRONG> в любом месте. Я предлагаю сохранить его в папке
+<STRONG>python_examples</STRONG> в домашнем каталоге. Этот пример показывает, как просто написать
+программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для
+этого введите в терминале</P>
+<P><H4><STRONG><INS><EM>chmod +x hello.py</EM></INS></STRONG></H4></P>
+<P>в папке, в которой вы сохранили программу. Теперь запустите её.</P>
+<P><H5><font face="Courier New">greg@earth:~/python_examples$ ./hello.py</font></H5></P>
+<P><H5><font face="Courier New">Hello. I am a python program.</font></H5></P>
+<P><H5><font face="Courier New">What is your name? Ferd Burphel</font></H5></P>
+<P><H5><font face="Courier New">Hello there, Ferd Burphel!</font></H5></P>
+<P><H5><font face="Courier New">greg@earth:~/python_examples$</font></H5></P>
+<P>Вот и всё.</P>
+<P><H2>Пример цикла For</H2></P>
+<P><H4><a href="">К содержанию</a></H4></P>
+<P>Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый
+редактор и наберите следующую программу:</P>
+<P><H5><font face="Courier New">#!/usr/bin/env python</font></H5></P>
+<P><H5><font face="Courier New">for cntr in range(0,10):</font></H5></P>
+<P><H5><font face="Courier New">&nbsp;&nbsp;&nbsp;&nbsp;print cntr</font></H5></P>
+<P><EM>Не забудьте поставить символ табуляции перед строкой «print cntr».</EM> Это важно. В
+Python для указания на блоки кода используются не круглые «<STRONG>(</STRONG>» и фигурные «<STRONG>{</STRONG>» скобки
+как в других языках программирования, а отступы.</P>
+
+</BODY>
+</HTML>
+
